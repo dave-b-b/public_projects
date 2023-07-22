@@ -1,0 +1,19 @@
+
+//Start the game
+POST http://localhost:8080/
+
+###
+// Make a move
+PUT http://localhost:8080/move
+Content-Type: application/json
+
+{
+    "row" : 1,
+    "column" : 1
+}
+
+###
+
+// Get board
+GET http://localhost:8080/
+
