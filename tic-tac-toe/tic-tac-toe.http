@@ -8,12 +8,17 @@ PUT http://localhost:8080/move
 Content-Type: application/json
 
 {
-    "row" : 1,
-    "column" : 1
+    "row" : 2,
+    "column" : 0
 }
 
 ###
 
 // Get board
 GET http://localhost:8080/
+
+###
+
+// Get status of the game
+GET http://localhost:8080/status
 
